@@ -60,7 +60,7 @@ client.on("ready", () => {
   client.user.setActivity(`Yivy Av.`, { type: "PLAYING" });
   client.user.setStatus("idle");
   let channel = client.channels.cache.find(r => r.id === "971575695560040498");//ايدي الروم
-  if(!channel)return console.log("can't find channel")
+  if(!channel)return console.log("989818559297388584")
   channel.join();
 });
 client.on("warn", (info) => console.log(info));
